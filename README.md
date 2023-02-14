@@ -7,7 +7,9 @@
         public ListNode Rand;
         public string Data;
     }
+</sup>
 
+<sup> 
     public class ListRandom
     {
         public ListNode Head;
@@ -57,7 +59,7 @@
             }
         }
     }
-	</sup>
+</sup>
 
 
 ![image](https://user-images.githubusercontent.com/32494392/218605807-0a47dc91-ab67-495f-8d17-e16ec07578bb.png)
