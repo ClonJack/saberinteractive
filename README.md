@@ -1,8 +1,7 @@
 # saberinteractive
 
 1---------------------------------------------------------------------------------------------------------
-using System.IO;
-    public class ListNode
+ public class ListNode
     {
         public ListNode Prev;
         public ListNode Next;
