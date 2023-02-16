@@ -42,7 +42,7 @@
           private List<int> GetIndexRandomNode(ListNode currentNode)
           {
               var nextNode = currentNode.Next;
-              var indexRandomNode = new List<int>(Count);
+              var indexRandomNode = new List<int>();
               for (var i = 0; i < Count; i++)
               {
                   if (nextNode == Tail)
