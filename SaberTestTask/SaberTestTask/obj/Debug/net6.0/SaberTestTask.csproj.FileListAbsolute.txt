@@ -1,0 +1,15 @@
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/bin/Debug/net6.0/SaberTestTask
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/bin/Debug/net6.0/SaberTestTask.deps.json
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/bin/Debug/net6.0/SaberTestTask.runtimeconfig.json
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/bin/Debug/net6.0/SaberTestTask.dll
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/bin/Debug/net6.0/SaberTestTask.pdb
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/obj/Debug/net6.0/SaberTestTask.csproj.AssemblyReference.cache
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/obj/Debug/net6.0/SaberTestTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/obj/Debug/net6.0/SaberTestTask.AssemblyInfoInputs.cache
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/obj/Debug/net6.0/SaberTestTask.AssemblyInfo.cs
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/obj/Debug/net6.0/SaberTestTask.csproj.CoreCompileInputs.cache
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/obj/Debug/net6.0/SaberTestTask.dll
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/obj/Debug/net6.0/refint/SaberTestTask.dll
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/obj/Debug/net6.0/SaberTestTask.pdb
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/obj/Debug/net6.0/SaberTestTask.genruntimeconfig.cache
+/Users/a1111/RiderProjects/SaberTestTask/SaberTestTask/obj/Debug/net6.0/ref/SaberTestTask.dll
