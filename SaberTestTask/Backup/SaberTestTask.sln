@@ -1,8 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33214.272
-MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaberTestTask", "SaberTestTask\SaberTestTask.csproj", "{8C5118A0-E7CE-40DD-9C28-6368241B6C72}"
 EndProject
 Global
@@ -15,11 +12,5 @@ Global
 		{8C5118A0-E7CE-40DD-9C28-6368241B6C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C5118A0-E7CE-40DD-9C28-6368241B6C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C5118A0-E7CE-40DD-9C28-6368241B6C72}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EEB6197C-F921-4202-AD81-D4AE6F96E285}
 	EndGlobalSection
 EndGlobal

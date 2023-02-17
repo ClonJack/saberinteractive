@@ -1,7 +1,5 @@
 ﻿using SaberTestTask;
 
-Console.WriteLine("");
-
 
 var l1 = new ListNode() { Data = "Node 1" };
 var l2 = new ListNode() { Data = "Node 2" };

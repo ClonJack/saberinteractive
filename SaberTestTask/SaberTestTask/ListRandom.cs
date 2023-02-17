@@ -1,3 +1,5 @@
+using System.IO;
+
 namespace SaberTestTask;
 
 public class ListRandom
@@ -41,6 +43,9 @@ public class ListRandom
         Console.WriteLine("Serialize");
     }
 
+
+    private ListNode ReadNode(int randomId, Dictionary<int, ListNode> dictionaryNodes) => randomId >= 0 ? dictionaryNodes[randomId] : null;
+
     public void Deserialize(FileStream s)
     {
         using var binaryReader = new BinaryReader(s);
@@ -52,19 +57,29 @@ public class ListRandom
             dictionaryNodes.Add(i, new ListNode() { Data = binaryReader.ReadString() });
         }
 
+
         Head = dictionaryNodes[0];
         Tail = dictionaryNodes[Count - 1];
-        
-        Head.Next = dictionaryNodes[1];
-        for (var i = 1; i < Count - 1; i++)
+
+        for (var i = 0; i < Count; i++)
         {
+            if (i > 0)
+            {
+                dictionaryNodes[i].Previous = dictionaryNodes[i - 1];
+            }
+
+            if (i < Count - 1)
+            {
+                dictionaryNodes[i].Next = dictionaryNodes[i + 1];
+            }
+
             var randomId = binaryReader.ReadInt32();
             dictionaryNodes[i].Random = randomId >= 0 ? dictionaryNodes[randomId] : null;
-            dictionaryNodes[i].Previous = dictionaryNodes[i - 1];
-            dictionaryNodes[i].Next = dictionaryNodes[i + 1];
         }
-
 
         Console.WriteLine("Deserialize");
     }
+
+
+
 }
